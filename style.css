@@ -8,9 +8,9 @@
   --accent: #0f6e56;      /* teal */
   --accent-text: #ffffff;
   --brand: #d85a30;       /* coral */
-  --bg-grad-1: #faf9f6;
-  --bg-grad-2: #eef4f0;
-  --bg-grad-3: #f6ece6;
+  --bg-grad-1: #9d8ce8;
+  --bg-grad-2: #6f8fe0;
+  --bg-grad-3: #7a6fd8;
 }
 
 /* Dark mode overrides, applied automatically by the browser/OS */
@@ -24,6 +24,9 @@
     --accent: #5dcaa5;
     --accent-text: #04342c;
     --brand: #f0997b;
+    --bg-grad-1: #2a1f5c;
+    --bg-grad-2: #1c2a5c;
+    --bg-grad-3: #241a4a;
   }
 }
 
@@ -41,7 +44,7 @@ body {
     var(--bg-grad-2)
   );
   background-size: 300% 300%;
-  animation: driftBg 25s ease infinite;
+  animation: driftBg 45s ease infinite;
 }
 
 @keyframes driftBg {
