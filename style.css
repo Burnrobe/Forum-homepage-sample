@@ -35,13 +35,13 @@ body {
   color: var(--text-primary);
   background: linear-gradient(
     120deg,
-    red,
-    blue,
-    yellow,
-    red
+    var(--bg-grad-1),
+    var(--bg-grad-2),
+    var(--bg-grad-3),
+    var(--bg-grad-2)
   );
   background-size: 300% 300%;
-  animation: driftBg 3s linear infinite;
+  animation: driftBg 25s ease infinite;
 }
 
 @keyframes driftBg {
